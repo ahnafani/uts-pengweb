@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - SkinGuide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2965/2965567.png">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+    <span class="logo-icon">✿</span>
+    SkinGuide.
+</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skin-type.html">Skin Type</a>
+            <a href="recommendation.html">Recommendation</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="registration.html">Registration</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="about-hero">
+        <h1>SkinGuide Gallery</h1>
+        <p>A Collection of Skincare Inspiration</p>
+    </section>
+
+    <section class="gallery-section">
+
+        <div class="section-title">
+            <p>OUR GALLERY</p>
+            <h2>Explore Skincare Moments</h2>
+            <span>Kumpulan gambar produk dan aktivitas perawatan kulit.</span>
+        </div>
+
+        <div class="gallery-container">
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=600"
+                alt="Produk perawatan kulit">
+                <h3>Skincare Products</h3>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600"
+                alt="Produk skincare">
+                <h3>Daily Skincare</h3>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600"
+                alt="Perawatan wajah">
+                <h3>Facial Treatment</h3>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=600"
+                alt="Perlengkapan skincare">
+                <h3>Beauty Essentials</h3>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=600"
+                alt="Perawatan kulit wajah">
+                <h3>Skin Treatment</h3>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?w=600"
+                alt="Produk kecantikan">
+                <h3>Beauty Collection</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-bottom">
+            <p>2026 SkinGuide. Designed for educational purposes.</p>
+        </div>
+    </footer>
+
+    <footer class="main-footer">
+
+    <div class="footer-content">
+        <h2>SkinGuide.</h2>
+
+        <p>
+            Your Skin, Your Story.
+            Discover the best care for your skin.
+        </p>
+
+        <p>
+            Email: skinguide@example.com
+        </p>
+    </div>
+
+    <div class="footer-bottom">
+        <p>
+            © 2026 SkinGuide. All Rights Reserved.
+        </p>
+
+        <p>Designed by SkinGuide Team</p>
+    </div>
+
+</footer>
+
+</body>
+</html>
