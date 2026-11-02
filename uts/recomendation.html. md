@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendation - SkinGuide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2965/2965567.png">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+    <span class="logo-icon">✿</span>
+    SkinGuide.
+</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skin-type.html">Skin Type</a>
+            <a href="recommendation.html">Recommendation</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="about-hero">
+        <h1>Skincare Recommendation</h1>
+        <p>Find a Simple Guide for Your Skin</p>
+    </section>
+
+    <section class="recommendation-section">
+
+        <div class="section-title">
+            <p>YOUR SKINCARE GUIDE</p>
+            <h2>Basic Skincare Recommendations</h2>
+            <span>Panduan dasar perawatan berdasarkan karakteristik kulit.</span>
+        </div>
+
+        <div class="recommendation-container">
+
+            <div class="recommendation-card">
+                <h2>Normal Skin</h2>
+                <h3>Recommended Care</h3>
+                <ul>
+                    <li>Gentle facial cleanser</li>
+                    <li>Lightweight moisturizer</li>
+                    <li>Broad-spectrum sunscreen</li>
+                </ul>
+            </div>
+
+            <div class="recommendation-card">
+                <h2>Dry Skin</h2>
+                <h3>Recommended Care</h3>
+                <ul>
+                    <li>Gentle hydrating cleanser</li>
+                    <li>Moisturizer with ceramides</li>
+                    <li>Moisturizing sunscreen</li>
+                </ul>
+            </div>
+
+            <div class="recommendation-card">
+                <h2>Oily Skin</h2>
+                <h3>Recommended Care</h3>
+                <ul>
+                    <li>Gentle facial cleanser</li>
+                    <li>Lightweight moisturizer</li>
+                    <li>Non-comedogenic sunscreen</li>
+                </ul>
+            </div>
+
+            <div class="recommendation-card">
+                <h2>Combination Skin</h2>
+                <h3>Recommended Care</h3>
+                <ul>
+                    <li>Gentle facial cleanser</li>
+                    <li>Lightweight moisturizer</li>
+                    <li>Broad-spectrum sunscreen</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="recommendation-note">
+            <h3>Important Note</h3>
+            <p>
+                Setiap kulit memiliki kebutuhan yang berbeda.
+                Pilih produk sesuai kondisi kulit dan perhatikan
+                reaksi kulit ketika mencoba produk baru.
+            </p>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-bottom">
+            <p>2026 SkinGuide. Designed for educational purposes.</p>
+        </div>
+    </footer>
+
+    <footer class="main-footer">
+
+    <div class="footer-content">
+        <h2>SkinGuide.</h2>
+
+        <p>
+            Your Skin, Your Story.
+            Discover the best care for your skin.
+        </p>
+
+        <p>
+            Email: skinguide@example.com
+        </p>
+    </div>
+
+    <div class="footer-bottom">
+        <p>
+            © 2026 SkinGuide. All Rights Reserved.
+        </p>
+
+        <p>Designed by SkinGuide Team</p>
+    </div>
+
+</footer>
+
+</body>
+</html>
