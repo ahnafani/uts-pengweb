@@ -1,0 +1,38 @@
+function updateClock() {
+    const now = new Date();
+
+    const hours = String(now.getHours()).padStart(2, "0");
+    const minutes = String(now.getMinutes()).padStart(2, "0");
+    const seconds = String(now.getSeconds()).padStart(2, "0");
+
+    document.getElementById("clock").textContent =
+        hours + ":" + minutes + ":" + seconds;
+}
+
+updateClock();
+
+setInterval(updateClock, 1000);
+
+const registrationForm = document.getElementById("registrationForm");
+
+if (registrationForm) {
+    registrationForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        alert("Thank you for registering with SkinGuide!");
+
+        registrationForm.reset();
+    });
+}
+
+const contactForm = document.getElementById("contactForm");
+
+if (contactForm) {
+    contactForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        alert("Thank you! Your message has been received.");
+
+        contactForm.reset();
+    });
+}
